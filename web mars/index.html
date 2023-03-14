@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        *{
+            font-family: Arial, sans-serif;
+            margin: 0 ;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: gray;
+        }
+        header{
+            width: auto;
+            height: 150px;
+            background-color: #1B4F72; 
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            /* //flex-direction: column;?? */  
+        }
+        .canvas{
+            margin: auto;
+            background-color: white;
+            width: 8.5in;
+            height: 11in;
+        }
+        .flexHead{
+            color: white; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;    
+        }
+        .personalInfo{
+            display: flex;
+            justify-content: left;
+            
+        }
+        .noBullet{
+            list-style-type: none;
+        }
+        .line{
+            margin:0px 40px 20px 40px; 
+            height:3px;
+            border-width:0;
+            color:gray;
+            background-color:gray
+        }
+        h2{
+           margin: 20px 10px 0px 40px;
+           color: #2471A3 ;
+        }
+        ul{
+            margin-left: 70px;
+        }
+        ol{
+            margin-left: 70px;
+        }
+        li{
+            margin-bottom: 10px;
+        }
+        p{
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="canvas">
+        <header>
+            <div class="flexHead">
+                <h1>Mars Angelo Ladia</h1><hr>
+                <h3>Student | Information Technology</h3>
+            </div>
+            <img src="/image/IMG_20221002_152800.jpg" alt="Mars Pic">
+        </header>
+
+        <h2>Personal Information</h2>
+        <hr class="line"> 
+        <div class="personalInfo">
+            <ul>
+                <li >   Name:</li>
+                <li>Age:</li>
+                <li>Sex:</li>
+                <li>Date of Birth:</li>
+                <li>Address:</li>
+                <li>Mobile Number:</li>
+                <li>Email:</li>    
+            </ul>
+            <ul>
+                <li class="noBullet">Mars Angelo Erguiza Ladia</li>
+                <li class="noBullet">20</li>
+                <li class="noBullet">Male</li>
+                <li class="noBullet">04 / 05 / 2002</li>
+                <li class="noBullet">#129 Purok 5 Brgy. Payapa, San Carlos City, Pangasinan:</li>
+                <li class="noBullet">09123985187</li>
+                <li class="noBullet"><a href="https://www.facebook.com/MarsLadia/" target="_blank">marsangeloladia@gmail.com</a></li>         
+            </ul>
+        </div>
+
+        
+        <h2>Education</h2>
+        <hr class="line">  
+        <p>Bachelor of Science in Information Technology Major in Web Development<br> (Pangasinan State University 2020-Present)</p>
+        
+        
+        <h2>Skill</h2>
+        <hr class="line">  
+        <ul >
+            <li>C++, Java, HTML5, CSS, JavaScript, jQuery, MySQL, PHP, Bootstrap</li>
+            <li>GIT, WordPress, Google Site, MS Access </li>
+            <li>Photoshop, Vegas, Illustrator</li>  
+        </ul>
+
+
+        <h2>Project</h2>
+        <hr class="line"> 
+        <ol type="1">
+            <li>Portfolio Website - Created using HTML, CSS, and JavaScript.</li>
+            <li>Personal Website - Created using WordPress</li>
+            <li>Student List System - Created using HTML, CSS, JavaScript and MySQL</li>
+            <li>Point of Sale System - Created using C++.</li>
+            <li>Point of Sale System - Created using Java.</li>
+            <li>Sales and Invertory System - Created using MS Access.</li>
+        </ol>
+
+
+        <h2>Experience</h2>
+        <hr class="line"> 
+        <ol type="1">
+            <li>Arduino Sumo Robot competion</li>
+            <li>C++ competion</li>
+        </ol>  
+    </div>
+</body>
+</html>
